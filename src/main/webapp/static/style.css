@@ -1,0 +1,263 @@
+.center {
+    margin: auto;
+}
+
+body,
+.navbar-default .btn-default {
+    background-color: #363F45;
+    color: #CFD8DC;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.btn-primary:hover {
+    background-color: #00BCD4;
+    border: none;
+}
+.btn-primary,
+.navbar-default,
+.navbar.navbar-default .nav-collapse{
+    background-color: #455A64;
+    border: none;
+}
+.navbar-default .btn-default,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: #CFD8DC;
+}
+
+.navbar-default .btn-default {
+    border: none;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #CFD8DC;
+}
+.navbar .navbar-collapse .navbar-right > li:first-child {
+    margin-right: 15px;
+}
+
+
+.form-control {
+    background-color: #CFD8DC;
+}
+
+.file-input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-input + label {
+    font-size: 1.25em;
+    border-radius: 6px;
+    background-color: #F7C57B;
+    color: #363F45;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.file-input + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.file-input:focus + label,
+.file-input + label:hover {
+    background-color: #FF9800;
+}
+
+#uploadForm, #signupForm, #loginForm, #editForm {
+    max-width: 300px;
+}
+.form-horizontal .control-label {
+    text-align: center;
+}
+
+
+
+.profile {
+    width: 600px;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow:    0 0 15px 0 rgba(0,0,0,0.75);
+    box-shadow:         0 0 15px 0 rgba(0,0,0,0.75);
+    margin-bottom: 40px;
+}
+
+.profile img {
+    height: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin: 0 180px;
+}
+.profile .profile-image {
+    height: 200px;
+    width: 200px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin: 0 180px;
+    background-size: cover;
+    background-position: 50%;
+}
+.profile .username {
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+}
+.profile .uploadCount {
+    margin: auto;
+    text-align: center;
+    max-width: 100px;
+    padding: 3px;
+    background-color: #455A64;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.profile .bio {
+    max-width: 400px;
+    margin: 15px auto auto;
+}
+.profile .center {
+    width: 115px;
+}
+.profile .center .btn {
+    width: 100%;
+}
+
+.image-view {
+    width: 840px;
+}
+
+.image-view img {
+    margin-bottom: 10px;
+}
+
+.image-view #left-panel {
+    width: 60%;
+    border-right: solid 2px #455A64;
+    float: left;
+    padding: 16px;
+}
+.image-view #right-panel {
+    width: 40%;
+    float: right;
+    padding: 8px;
+}
+.image-view #right-panel > * {
+    padding: 8px;
+}
+.image-view .user-info {
+    display: flex;
+    margin-bottom: 8px;
+}
+.image-view .user-info a {
+    display: inherit;
+    color: inherit;
+}
+.image-view .user-info a:hover {
+     text-decoration: none;
+}
+.image-view .user-info .profile-image {
+    flex-shrink: 0;
+    flex-grow: 0;
+    height: 64px;
+    width: 64px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    background-size: cover;
+    background-position: 50%;
+}
+.image-view .user-info h3 {
+    flex-grow: 1;
+    padding: 0 16px;
+}
+.image-view .download-button {
+    border-top: solid 2px #455A64;
+}
+.image-view .download-button .btn-group,
+.image-view .download-button .btn-group a {
+    width: 100%;
+}
+.image-view .download-button .btn {
+    font-size: 13px;
+    padding: 5px 10px;
+    text-align: left;
+}
+.image-view .download-button .btn-primary {
+    background-color: #363F45;
+}
+.image-view .download-button .btn-primary:hover {
+    background-color: #455A64;
+}
+.image-view .download-button .image-size {
+    float:right;
+}
+/*
+Code snippet by maridlcrmn for Bootsnipp.com
+Follow me on Twitter @maridlcrmn
+*/
+.navbar-brand { position: relative; z-index: 2; }
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; transition: transform 0.3s; }
+
+.navbar .navbar-collapse { position: relative; overflow: hidden !important; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; }
+
+
+.navbar.navbar-default .nav-collapse,
+.navbar.navbar-inverse .nav-collapse {
+    height: auto !important;
+    transition: transform 0.3s;
+    transform: translate(0px,-50px);
+}
+.navbar.navbar-default .nav-collapse.in,
+.navbar.navbar-inverse .nav-collapse.in {
+    transform: translate(0px,0px);
+}
+
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; }
+
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+
+    .navbar.navbar-default .nav-collapse,
+    .navbar.navbar-inverse .nav-collapse {
+        transform: translate(-100%,0px);
+    }
+    .navbar.navbar-default .nav-collapse.in,
+    .navbar.navbar-inverse .nav-collapse.in {
+        transform: translate(0px,0px);
+    }
+
+    .navbar.navbar-default .nav-collapse.slide-down,
+    .navbar.navbar-inverse .nav-collapse.slide-down {
+        transform: translate(0px,-100%);
+    }
+    .navbar.navbar-default .nav-collapse.in.slide-down,
+    .navbar.navbar-inverse .nav-collapse.in.slide-down {
+        transform: translate(0px,0px);
+    }
+}

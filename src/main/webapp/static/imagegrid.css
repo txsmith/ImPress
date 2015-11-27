@@ -1,0 +1,77 @@
+
+#imagegrid {
+    width: 75%;
+    margin: auto;
+    margin-top: -25px;
+    padding: 5px;
+}
+
+.flexImg {
+    margin: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+}
+
+.flexImg.animate {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.flexImg.invisible {
+    opacity: 0;
+}
+.flexImg.invisible > * {
+    visibility: hidden;
+}
+.flexImg.animate.invisible {
+    transform: scale(0,0);
+}
+
+.flexImg.visible {
+    opacity: 1;
+}
+.flexImg.visible > * {
+    visibility: visible;
+}
+.flexImg.animate.visible {
+    transform: scale(1,1);
+}
+
+.flexImg.visible:hover {
+    transition: all 0.25s ease-in-out;
+}
+
+.image-title {
+    transition: margin 0.25s ease-in-out;
+    padding: 10px 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #363F45;
+    color: #CFD8DC;
+    opacity: 0.9;
+    font-size: 1.5em;
+    line-height: 30px;
+}
+
+.flexImg.visible:hover .image-title {
+    margin-top: -50px;
+}
+
+.image-title {
+    display: flex;
+    font-size: 18px;
+    line-height: 34px;
+}
+.image-title > .btn-group {
+    flex-shrink: 0;
+}
+.image-title > span {
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.flexImg > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
